@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# FourthBrain
+=======
 # Whodunit? 🕵️
 
 A murder has been a committed in ML City at the Pandas Express!
@@ -12,3 +15,4 @@ To begin sluething:
         <li>Read the instructions located in the `instructions.md` file.</li>
     </ol>
 
+>>>>>>> WDBranch

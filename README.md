@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FourthBrain
 =======
 # Whodunit? 🕵️
@@ -15,4 +15,4 @@ To begin sluething:
         <li>Read the instructions located in the `instructions.md` file.</li>
     </ol>
 
->>>>>>> WDBranch
+

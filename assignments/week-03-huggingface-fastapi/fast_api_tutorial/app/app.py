@@ -47,13 +47,11 @@ def predict(text_to_translate: TextToTranslate):
     results = pipelineFR(text_to_translate.input_text)
     return results
 
-@app.post('/translateMultiple/')
+@app.post('/translatemultiple/')
 def predict(texts_to_translate: TextsToTranslate):
     results = []
     texts =  texts_to_translate.input_texts
-    print(texts)
     for text in texts:
-        print(text);
         results.append(pipelineDE(text))
     return results
 

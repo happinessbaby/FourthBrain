@@ -33,9 +33,6 @@ def echo(message: str):
     return {"message": message}
 
 
-@app.get('/')
-def root():
-    return Response("<h1>AI Models with FastAPI</h1>")
 
 @app.post('/simpletranslate/{text_to_translate}')
 def predict(text_to_translate: str):
